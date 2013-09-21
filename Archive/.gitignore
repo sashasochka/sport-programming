@@ -1,0 +1,12 @@
+build
+dist
+nbproject
+Makefile
+Debug
+Release
+CMakeLists.txt
+*kdev4
+*~
+.*
+!.gitignore
+
