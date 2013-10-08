@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using int64 = int64_t;
-using uint64 = uint64_t;
+using int64 = long long;
+using uint64 = unsigned long long;
 using pii = pair<int64, int64>;
 using pdd = pair<double, double>;
 using vi = vector<int64>;
