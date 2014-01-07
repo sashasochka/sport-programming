@@ -11,7 +11,7 @@ using vd = vector<double>;
 using vvi = vector<vi>;
 
 constexpr double eps = 1e-11;
-constexpr double pi = acos(-1.0);
+const double pi = acos(-1.0);
 constexpr int64 p = 1000000007;
 constexpr int64 countbit(int64 n) { return n == 0 ? 0 : countbit(n / 2) + n % 2; }
 constexpr int64 lowbit(int64 n) { return (n ^ (n-1) ) & n; }
@@ -34,6 +34,7 @@ using Pt = Point<int64>;
 #define pb push_back
 
 void solve() {
+
 }
 
 int main() {
