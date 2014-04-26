@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=gcj_netbeans_project
+PROJECTNAME=gcj_nb
 
 # Active Configuration
 DEFAULTCONF=Debug

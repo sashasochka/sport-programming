@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=gcj_netbeans_project
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/gcj_netbeans_project
+CND_ARTIFACT_NAME_Debug=gcj_nb
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/gcj_nb
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=gcjnetbeansproject.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/gcjnetbeansproject.tar
+CND_PACKAGE_NAME_Debug=gcjnb.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/gcjnb.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=gcj_netbeans_project
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/gcj_netbeans_project
+CND_ARTIFACT_NAME_Release=gcj_nb
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/gcj_nb
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=gcjnetbeansproject.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/gcjnetbeansproject.tar
+CND_PACKAGE_NAME_Release=gcjnb.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/gcjnb.tar
 #
 # include compiler specific variables
 #

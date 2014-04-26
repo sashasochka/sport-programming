@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="88">
+<configurationDescriptor version="94">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -30,7 +30,6 @@
   <confs>
     <conf name="Debug" type="1">
       <toolsSet>
-        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
         <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
@@ -39,9 +38,10 @@
         <ccTool>
           <standard>8</standard>
           <incDir>
-            <pElem>/usr/</pElem>
-            <pElem>/usr/include/c++/4.7</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
           </incDir>
+          <warningLevel>2</warningLevel>
         </ccTool>
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
@@ -49,7 +49,6 @@
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
-        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
         <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
@@ -59,12 +58,12 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
-          <standard>8</standard>
+          <developmentMode>6</developmentMode>
           <incDir>
-            <pElem>/usr/</pElem>
-            <pElem>/usr/include/c++/4.7</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
           </incDir>
+          <commandLine>-std=c++1y</commandLine>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
